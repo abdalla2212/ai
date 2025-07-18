@@ -1,44 +1,1290 @@
 [
     {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "flask",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "suggest_medicine",
-        "kind": 2,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "def suggest_medicine():\n    data = request.json\n    message = data.get('message', '')\n    available_medicines = data.get('available_medicines', [])\n    suggestion = None\n    for med in available_medicines:\n        if med.lower() in message.lower():\n            suggestion = med\n            break\n    if not suggestion and available_medicines:",
-        "detail": "app",
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "ChatService",
+        "importPath": "ai.services.chat_service",
+        "description": "ai.services.chat_service",
+        "isExtraImport": true,
+        "detail": "ai.services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_chat_stream",
+        "importPath": "ai.services.chat_service",
+        "description": "ai.services.chat_service",
+        "isExtraImport": true,
+        "detail": "ai.services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "OCRService",
+        "importPath": "ai.services.ocr_service",
+        "description": "ai.services.ocr_service",
+        "isExtraImport": true,
+        "detail": "ai.services.ocr_service",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceService",
+        "importPath": "ai.services.voice_service",
+        "description": "ai.services.voice_service",
+        "isExtraImport": true,
+        "detail": "ai.services.voice_service",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "arabic_reshaper",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "arabic_reshaper",
+        "description": "arabic_reshaper",
+        "detail": "arabic_reshaper",
+        "documentation": {}
+    },
+    {
+        "label": "get_display",
+        "importPath": "bidi.algorithm",
+        "description": "bidi.algorithm",
+        "isExtraImport": true,
+        "detail": "bidi.algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain_community.llms",
+        "description": "langchain_community.llms",
+        "isExtraImport": true,
+        "detail": "langchain_community.llms",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "difflib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "difflib",
+        "description": "difflib",
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AdvancedAIService",
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "isExtraImport": true,
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "AIResponse",
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "isExtraImport": true,
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "MedicalDatabase",
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "isExtraImport": true,
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "AdvancedNLPService",
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "isExtraImport": true,
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessedText",
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "isExtraImport": true,
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChatService",
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "isExtraImport": true,
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "ConnectionFailure",
+        "importPath": "pymongo.errors",
+        "description": "pymongo.errors",
+        "isExtraImport": true,
+        "detail": "pymongo.errors",
+        "documentation": {}
+    },
+    {
+        "label": "ServerSelectionTimeoutError",
+        "importPath": "pymongo.errors",
+        "description": "pymongo.errors",
+        "isExtraImport": true,
+        "detail": "pymongo.errors",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "easyocr",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "easyocr",
+        "description": "easyocr",
+        "detail": "easyocr",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str\n    userLocation: Optional[Dict[str, float]] = None\n    context: str = \"pharmacy_assistant\"\n    session_id: Optional[str] = None\nclass ChatResponse(BaseModel):\n    response: str\n    type: str\n    confidence: float\n    suggestions: Optional[List[str]] = None",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "class ChatResponse(BaseModel):\n    response: str\n    type: str\n    confidence: float\n    suggestions: Optional[List[str]] = None\n    results: Optional[Dict[str, Any]] = None\nclass OCRRequest(BaseModel):\n    image_url: Optional[str] = None\nclass OCRResponse(BaseModel):\n    success: bool",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "OCRRequest",
+        "kind": 6,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "class OCRRequest(BaseModel):\n    image_url: Optional[str] = None\nclass OCRResponse(BaseModel):\n    success: bool\n    medicines: List[str]\n    confidence: float\n    text: str\n# Health check endpoint\n@app.get(\"/health\")\nasync def health_check():",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "OCRResponse",
+        "kind": 6,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "class OCRResponse(BaseModel):\n    success: bool\n    medicines: List[str]\n    confidence: float\n    text: str\n# Health check endpoint\n@app.get(\"/health\")\nasync def health_check():\n    return {\n        \"status\": \"healthy\",",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# Initialize FastAPI app\napp = FastAPI(\n    title=\"Pharmacy AI Assistant\",\n    description=\"AI-powered pharmacy assistant with voice, text, and OCR capabilities\",\n    version=\"1.0.0\"\n)\n# CORS middleware\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "ai.app",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "app = Flask(__name__)\n@app.route('/suggest-medicine', methods=['POST'])\ndef suggest_medicine():\n    data = request.json\n    message = data.get('message', '')\n    available_medicines = data.get('available_medicines', [])\n    suggestion = None\n    for med in available_medicines:\n        if med.lower() in message.lower():\n            suggestion = med",
-        "detail": "app",
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "app = FastAPI(\n    title=\"Pharmacy AI Assistant\",\n    description=\"AI-powered pharmacy assistant with voice, text, and OCR capabilities\",\n    version=\"1.0.0\"\n)\n# CORS middleware\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:3000\", \"http://127.0.0.1:3000\"],\n    allow_credentials=True,",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "chat_service",
+        "kind": 5,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "chat_service = ChatService()\nocr_service = OCRService()\nvoice_service = VoiceService()\n# Pydantic models\nclass ChatRequest(BaseModel):\n    message: str\n    userLocation: Optional[Dict[str, float]] = None\n    context: str = \"pharmacy_assistant\"\n    session_id: Optional[str] = None\nclass ChatResponse(BaseModel):",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "ocr_service",
+        "kind": 5,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "ocr_service = OCRService()\nvoice_service = VoiceService()\n# Pydantic models\nclass ChatRequest(BaseModel):\n    message: str\n    userLocation: Optional[Dict[str, float]] = None\n    context: str = \"pharmacy_assistant\"\n    session_id: Optional[str] = None\nclass ChatResponse(BaseModel):\n    response: str",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "voice_service",
+        "kind": 5,
+        "importPath": "ai.app",
+        "description": "ai.app",
+        "peekOfCode": "voice_service = VoiceService()\n# Pydantic models\nclass ChatRequest(BaseModel):\n    message: str\n    userLocation: Optional[Dict[str, float]] = None\n    context: str = \"pharmacy_assistant\"\n    session_id: Optional[str] = None\nclass ChatResponse(BaseModel):\n    response: str\n    type: str",
+        "detail": "ai.app",
+        "documentation": {}
+    },
+    {
+        "label": "AIModelType",
+        "kind": 6,
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "peekOfCode": "class AIModelType(Enum):\n    \"\"\"أنواع نماذج الذكاء الاصطناعي المدعومة\"\"\"\n    GEMMA3N = \"gemma3n:e2b\"\n    LLAMA3 = \"llama3:8b\"\n    MISTRAL = \"mistral:7b\"\n    GPT35 = \"gpt-3.5-turbo\"\n    CLAUDE3 = \"claude-3\"\n    GEMINI = \"gemini-pro\"\nclass EmotionType(Enum):\n    \"\"\"أنواع المشاعر المدعومة\"\"\"",
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmotionType",
+        "kind": 6,
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "peekOfCode": "class EmotionType(Enum):\n    \"\"\"أنواع المشاعر المدعومة\"\"\"\n    PAIN = \"ألم\"\n    ANXIETY = \"قلق\"\n    FEAR = \"خوف\"\n    URGENCY = \"استعجال\"\n    CALM = \"هدوء\"\n    CONFUSION = \"ارتباك\"\n    HOPE = \"أمل\"\n@dataclass",
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "AIResponse",
+        "kind": 6,
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "peekOfCode": "class AIResponse:\n    \"\"\"هيكل بيانات لرد الذكاء الاصطناعي\"\"\"\n    text: str\n    confidence: float\n    model_used: str\n    response_time: float\n    emotion_detected: Optional[EmotionType] = None\n    urgency_level: int = 0  # 0-10\n    medical_accuracy: float = 0.0\nclass AdvancedAIService:",
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "AdvancedAIService",
+        "kind": 6,
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "peekOfCode": "class AdvancedAIService:\n    \"\"\"خدمة الذكاء الاصطناعي المتقدمة\"\"\"\n    def __init__(self):\n        self.models = {\n            \"local\": {\n                \"gemma3n\": AIModelType.GEMMA3N.value,\n                \"llama3\": AIModelType.LLAMA3.value,\n                \"mistral\": AIModelType.MISTRAL.value\n            },\n            \"cloud\": {",
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.advanced_ai_service",
+        "description": "services.advanced_ai_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AIModelType(Enum):\n    \"\"\"أنواع نماذج الذكاء الاصطناعي المدعومة\"\"\"\n    GEMMA3N = \"gemma3n:e2b\"\n    LLAMA3 = \"llama3:8b\"\n    MISTRAL = \"mistral:7b\"\n    GPT35 = \"gpt-3.5-turbo\"\n    CLAUDE3 = \"claude-3\"\n    GEMINI = \"gemini-pro\"\nclass EmotionType(Enum):",
+        "detail": "services.advanced_ai_service",
+        "documentation": {}
+    },
+    {
+        "label": "DialectType",
+        "kind": 6,
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "peekOfCode": "class DialectType(Enum):\n    \"\"\"أنواع اللهجات العربية\"\"\"\n    EGYPTIAN = \"مصري\"\n    SAUDI = \"سعودي\"\n    LEBANESE = \"لبناني\"\n    EMIRATI = \"إماراتي\"\n    MOROCCAN = \"مغربي\"\n    STANDARD = \"فصحى\"\nclass ContextType(Enum):\n    \"\"\"أنواع السياق\"\"\"",
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "ContextType",
+        "kind": 6,
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "peekOfCode": "class ContextType(Enum):\n    \"\"\"أنواع السياق\"\"\"\n    MEDICAL = \"طبي\"\n    GENERAL = \"عام\"\n    URGENT = \"طارئ\"\n    FOLLOW_UP = \"متابعة\"\n    CLARIFICATION = \"توضيح\"\n@dataclass\nclass ProcessedText:\n    \"\"\"هيكل بيانات النص المعالج\"\"\"",
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessedText",
+        "kind": 6,
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "peekOfCode": "class ProcessedText:\n    \"\"\"هيكل بيانات النص المعالج\"\"\"\n    original_text: str\n    normalized_text: str\n    detected_dialect: DialectType\n    context_type: ContextType\n    confidence: float\n    corrections: List[str]\n    suggestions: List[str]\n    entities: List[Dict[str, Any]]",
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "AdvancedNLPService",
+        "kind": 6,
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "peekOfCode": "class AdvancedNLPService:\n    \"\"\"خدمة معالجة اللغة الطبيعية المتقدمة\"\"\"\n    def __init__(self):\n        # قواميس اللهجات\n        self.dialect_mappings = {\n            DialectType.EGYPTIAN: {\n                \"بيوجعني\": \"يوجعني\",\n                \"عندي\": \"عندي\",\n                \"مش\": \"لا\",\n                \"هي\": \"هي\",",
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.advanced_nlp_service",
+        "description": "services.advanced_nlp_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DialectType(Enum):\n    \"\"\"أنواع اللهجات العربية\"\"\"\n    EGYPTIAN = \"مصري\"\n    SAUDI = \"سعودي\"\n    LEBANESE = \"لبناني\"\n    EMIRATI = \"إماراتي\"\n    MOROCCAN = \"مغربي\"\n    STANDARD = \"فصحى\"\nclass ContextType(Enum):",
+        "detail": "services.advanced_nlp_service",
+        "documentation": {}
+    },
+    {
+        "label": "QuestionCache",
+        "kind": 6,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "class QuestionCache:\n    def __init__(self, max_size=1000, ttl_hours=24):\n        self.max_size = max_size\n        self.ttl_seconds = ttl_hours * 3600\n        self.cache = OrderedDict()\n        self.timestamps = {}\n        self.usage_count = {}  # Track how many times each question is asked\n    def _get_hash(self, text: str) -> str:\n        \"\"\"Generate hash for text\"\"\"\n        return hashlib.md5(text.encode('utf-8')).hexdigest()",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChatService",
+        "kind": 6,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "class ChatService:\n    def __init__(self):\n        self.openai_client = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n        self.backend_url = os.getenv(\"BACKEND_URL\", \"http://localhost:5000\")\n        # Initialize cache - MongoDB Atlas if available, otherwise fallback to in-memory\n        if MONGODB_AVAILABLE and os.getenv(\"MONGODB_ATLAS_URI\"):\n            try:\n                mongo_uri = os.getenv(\"MONGODB_ATLAS_URI\")\n                db_name = os.getenv(\"MONGODB_DB_NAME\", \"pharmacy_ai\")\n                collection = os.getenv(\"MONGODB_CACHE_COLLECTION\", \"cached_questions\")",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def extract_json(text: str) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    Extract JSON from text, handling common formatting issues\n    \"\"\"\n    if not text:\n        return None\n    # Try direct JSON parsing first\n    try:\n        return json.loads(text.strip())\n    except:",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "find_similar_questions",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def find_similar_questions(text: str, cached_questions: List[str], similarity_threshold: float = 0.8) -> List[Tuple[str, float]]:\n    \"\"\"\n    Find similar questions using TF-IDF and cosine similarity\n    Args:\n        text: Input text to find similar questions for\n        cached_questions: List of cached question texts\n        similarity_threshold: Minimum similarity score (0-1)\n    Returns:\n        List of tuples (question, similarity_score) sorted by similarity\n    \"\"\"",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_arabic_text",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def normalize_arabic_text(text: str) -> str:\n    \"\"\"\n    Normalize Arabic text for better similarity matching\n    \"\"\"\n    # Remove diacritics (تشكيل)\n    text = re.sub(r'[\\u064B-\\u065F\\u0670]', '', text)\n    # Normalize Arabic characters\n    text = text.replace('أ', 'ا')\n    text = text.replace('إ', 'ا')\n    text = text.replace('آ', 'ا')",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "load_symptom_keywords",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def load_symptom_keywords():\n    \"\"\"Load symptom keywords from JSON file\"\"\"\n    try:\n        with open('services/symptom_keywords.json', 'r', encoding='utf-8') as f:\n            return json.load(f)\n    except FileNotFoundError:\n        logger.warning(\"symptom_keywords.json not found, using fallback\")\n        return {}\nSYMPTOM_KEYWORDS = load_symptom_keywords()\n# Simple in-memory cache with LRU eviction",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_chat",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def ollama_chat(prompt, model=\"gemma:7b-instruct\", stream=False, timeout=120, max_retries=3, expect_json=False):\n    \"\"\"\n    اتصال آمن مع Ollama لأي موديل (افتراضي gemma:7b-instruct)\n    يعيد نص فقط دائماً، ويتعامل مع كل الأخطاء بذكاء.\n    الآن مع إعادة المحاولة وتحسين التعامل مع الاستجابة.\n    إذا كان expect_json=True سيحاول إرجاع JSON أو None عند الفشل.\n    \"\"\"\n    import time\n    import requests\n    import json",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "ollama_chat_stream",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def ollama_chat_stream(prompt, model=\"phi3\"):\n    import time\n    import requests\n    import json\n    start_time = time.time()\n    try:\n        with requests.post(\n            \"http://localhost:11434/api/generate\",\n            json={\n                \"model\": model,",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "check_ollama_health",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def check_ollama_health() -> Dict[str, Any]:\n    \"\"\"\n    Check Ollama service health and performance\n    \"\"\"\n    try:\n        import requests\n        import time\n        start_time = time.time()\n        # Check if Ollama is running\n        response = requests.get(\"http://localhost:11434/api/tags\", timeout=10)",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_performance_tips",
+        "kind": 2,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "def get_performance_tips() -> List[str]:\n    \"\"\"\n    Get performance optimization tips\n    \"\"\"\n    return [\n        \"🔧 تأكد من تشغيل Ollama مع stream=True للاستجابة السريعة\",\n        \"💾 استخدم MongoDB Atlas للتخزين المؤقت المركزي\",\n        \"⚡ استخدم النماذج الأصغر مثل gemma3n:e2b للسرعة\",\n        \"🔄 قلل عدد المحاولات (max_retries) لتسريع الفشل\",\n        \"📝 بسّط الأسئلة لتقليل وقت المعالجة\",",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef extract_json(text: str) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    Extract JSON from text, handling common formatting issues\n    \"\"\"\n    if not text:\n        return None\n    # Try direct JSON parsing first\n    try:\n        return json.loads(text.strip())",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "SYMPTOM_KEYWORDS",
+        "kind": 5,
+        "importPath": "services.chat_service",
+        "description": "services.chat_service",
+        "peekOfCode": "SYMPTOM_KEYWORDS = load_symptom_keywords()\n# Simple in-memory cache with LRU eviction\nclass QuestionCache:\n    def __init__(self, max_size=1000, ttl_hours=24):\n        self.max_size = max_size\n        self.ttl_seconds = ttl_hours * 3600\n        self.cache = OrderedDict()\n        self.timestamps = {}\n        self.usage_count = {}  # Track how many times each question is asked\n    def _get_hash(self, text: str) -> str:",
+        "detail": "services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "EnhancedResponse",
+        "kind": 6,
+        "importPath": "services.enhanced_chat_service",
+        "description": "services.enhanced_chat_service",
+        "peekOfCode": "class EnhancedResponse:\n    \"\"\"هيكل بيانات الرد المحسن\"\"\"\n    text: str\n    confidence: float\n    medical_accuracy: float\n    personalization_score: float\n    safety_score: float\n    response_time: float\n    model_used: str\n    dialect_detected: str",
+        "detail": "services.enhanced_chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "EnhancedChatService",
+        "kind": 6,
+        "importPath": "services.enhanced_chat_service",
+        "description": "services.enhanced_chat_service",
+        "peekOfCode": "class EnhancedChatService:\n    \"\"\"خدمة المحادثة المحسنة - تجمع كل التحسينات للوصول إلى 100%\"\"\"\n    def __init__(self):\n        # تهيئة الخدمات الأساسية\n        self.base_chat_service = ChatService()\n        # تهيئة الخدمات الجديدة\n        self.advanced_ai = AdvancedAIService()\n        self.medical_db = MedicalDatabase()\n        self.nlp_service = AdvancedNLPService()\n        # إحصائيات الأداء",
+        "detail": "services.enhanced_chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.enhanced_chat_service",
+        "description": "services.enhanced_chat_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@dataclass\nclass EnhancedResponse:\n    \"\"\"هيكل بيانات الرد المحسن\"\"\"\n    text: str\n    confidence: float\n    medical_accuracy: float\n    personalization_score: float\n    safety_score: float\n    response_time: float",
+        "detail": "services.enhanced_chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "DosageForm",
+        "kind": 6,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "class DosageForm(Enum):\n    \"\"\"أشكال الجرعات\"\"\"\n    TABLET = \"أقراص\"\n    CAPSULE = \"كبسولات\"\n    SYRUP = \"شراب\"\n    INJECTION = \"حقن\"\n    CREAM = \"كريم\"\n    OINTMENT = \"مرهم\"\n    DROPS = \"قطرات\"\n    SPRAY = \"بخاخ\"",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "PregnancyCategory",
+        "kind": 6,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "class PregnancyCategory(Enum):\n    \"\"\"فئات الحمل\"\"\"\n    A = \"آمن\"\n    B = \"آمن نسبياً\"\n    C = \"استخدام بحذر\"\n    D = \"تجنب الاستخدام\"\n    X = \"ممنوع تماماً\"\nclass InteractionSeverity(Enum):\n    \"\"\"شدة التداخل الدوائي\"\"\"\n    MINOR = \"خفيف\"",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "InteractionSeverity",
+        "kind": 6,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "class InteractionSeverity(Enum):\n    \"\"\"شدة التداخل الدوائي\"\"\"\n    MINOR = \"خفيف\"\n    MODERATE = \"متوسط\"\n    MAJOR = \"خطير\"\n    CONTRAINDICATED = \"ممنوع\"\n@dataclass\nclass Medicine:\n    \"\"\"هيكل بيانات الدواء\"\"\"\n    id: str",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "Medicine",
+        "kind": 6,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "class Medicine:\n    \"\"\"هيكل بيانات الدواء\"\"\"\n    id: str\n    name: str\n    generic_name: str\n    dosage_forms: List[DosageForm]\n    indications: List[str]\n    contraindications: List[str]\n    side_effects: List[str]\n    interactions: List[str]",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "DrugInteraction",
+        "kind": 6,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "class DrugInteraction:\n    \"\"\"هيكل بيانات التداخل الدوائي\"\"\"\n    medicine1: str\n    medicine2: str\n    severity: InteractionSeverity\n    description: str\n    recommendation: str\n    alternatives: List[str]\nclass MedicalDatabase:\n    \"\"\"قاعدة البيانات الطبية المتقدمة\"\"\"",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "MedicalDatabase",
+        "kind": 6,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "class MedicalDatabase:\n    \"\"\"قاعدة البيانات الطبية المتقدمة\"\"\"\n    def __init__(self, db_path: str = \"medical_database.db\"):\n        self.db_path = db_path\n        self.medicines = {}\n        self.interactions = {}\n        self.user_profiles = {}\n        self.medical_history = {}\n        # تهيئة قاعدة البيانات\n        self._init_database()",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.medical_database",
+        "description": "services.medical_database",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DosageForm(Enum):\n    \"\"\"أشكال الجرعات\"\"\"\n    TABLET = \"أقراص\"\n    CAPSULE = \"كبسولات\"\n    SYRUP = \"شراب\"\n    INJECTION = \"حقن\"\n    CREAM = \"كريم\"\n    OINTMENT = \"مرهم\"\n    DROPS = \"قطرات\"",
+        "detail": "services.medical_database",
+        "documentation": {}
+    },
+    {
+        "label": "MongoQuestionCache",
+        "kind": 6,
+        "importPath": "services.mongo_question_cache",
+        "description": "services.mongo_question_cache",
+        "peekOfCode": "class MongoQuestionCache:\n    \"\"\"\n    MongoDB Atlas-based cache for storing and retrieving question responses.\n    Provides centralized, persistent caching that works across multiple servers.\n    \"\"\"\n    def __init__(self, mongo_uri: str, db_name: str = \"pharmacy_ai\", collection: str = \"cached_questions\"):\n        \"\"\"\n        Initialize MongoDB cache connection.\n        Args:\n            mongo_uri: MongoDB Atlas connection string",
+        "detail": "services.mongo_question_cache",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.mongo_question_cache",
+        "description": "services.mongo_question_cache",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass MongoQuestionCache:\n    \"\"\"\n    MongoDB Atlas-based cache for storing and retrieving question responses.\n    Provides centralized, persistent caching that works across multiple servers.\n    \"\"\"\n    def __init__(self, mongo_uri: str, db_name: str = \"pharmacy_ai\", collection: str = \"cached_questions\"):\n        \"\"\"\n        Initialize MongoDB cache connection.\n        Args:",
+        "detail": "services.mongo_question_cache",
+        "documentation": {}
+    },
+    {
+        "label": "OCRService",
+        "kind": 6,
+        "importPath": "services.ocr_service",
+        "description": "services.ocr_service",
+        "peekOfCode": "class OCRService:\n    def __init__(self):\n        # Initialize EasyOCR for Arabic text\n        self.reader = easyocr.Reader(['ar', 'en'], gpu=False)\n        self.confidence_threshold = float(os.getenv(\"OCR_CONFIDENCE_THRESHOLD\", 0.7))\n        # Common medicine keywords in Arabic\n        self.medicine_keywords = [\n            'دواء', 'حبوب', 'شراب', 'كريم', 'مرهم', 'قطرات', 'بخاخ',\n            'أقراص', 'كبسولات', 'تحاميل', 'حقن', 'أمبولات',\n            'باراسيتامول', 'إيبوبروفين', 'أموكسيسيلين', 'أزيثروميسين',",
+        "detail": "services.ocr_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.ocr_service",
+        "description": "services.ocr_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass OCRService:\n    def __init__(self):\n        # Initialize EasyOCR for Arabic text\n        self.reader = easyocr.Reader(['ar', 'en'], gpu=False)\n        self.confidence_threshold = float(os.getenv(\"OCR_CONFIDENCE_THRESHOLD\", 0.7))\n        # Common medicine keywords in Arabic\n        self.medicine_keywords = [\n            'دواء', 'حبوب', 'شراب', 'كريم', 'مرهم', 'قطرات', 'بخاخ',\n            'أقراص', 'كبسولات', 'تحاميل', 'حقن', 'أمبولات',",
+        "detail": "services.ocr_service",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceService",
+        "kind": 6,
+        "importPath": "services.voice_service",
+        "description": "services.voice_service",
+        "peekOfCode": "class VoiceService:\n    def __init__(self):\n        self.openai_client = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n        self.recognizer = sr.Recognizer()\n        self.language = os.getenv(\"VOICE_LANGUAGE\", \"ar-EG\")\n        self.model = os.getenv(\"VOICE_MODEL\", \"whisper-1\")\n        # Configure recognizer\n        self.recognizer.energy_threshold = 4000\n        self.recognizer.dynamic_energy_threshold = True\n        self.recognizer.pause_threshold = 0.8",
+        "detail": "services.voice_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "services.voice_service",
+        "description": "services.voice_service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass VoiceService:\n    def __init__(self):\n        self.openai_client = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n        self.recognizer = sr.Recognizer()\n        self.language = os.getenv(\"VOICE_LANGUAGE\", \"ar-EG\")\n        self.model = os.getenv(\"VOICE_MODEL\", \"whisper-1\")\n        # Configure recognizer\n        self.recognizer.energy_threshold = 4000\n        self.recognizer.dynamic_energy_threshold = True",
+        "detail": "services.voice_service",
         "documentation": {}
     }
 ]
