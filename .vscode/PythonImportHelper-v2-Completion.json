@@ -1,0 +1,44 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "suggest_medicine",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def suggest_medicine():\n    data = request.json\n    message = data.get('message', '')\n    available_medicines = data.get('available_medicines', [])\n    suggestion = None\n    for med in available_medicines:\n        if med.lower() in message.lower():\n            suggestion = med\n            break\n    if not suggestion and available_medicines:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/suggest-medicine', methods=['POST'])\ndef suggest_medicine():\n    data = request.json\n    message = data.get('message', '')\n    available_medicines = data.get('available_medicines', [])\n    suggestion = None\n    for med in available_medicines:\n        if med.lower() in message.lower():\n            suggestion = med",
+        "detail": "app",
+        "documentation": {}
+    }
+]
